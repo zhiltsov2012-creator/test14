@@ -1,0 +1,45 @@
+# Виртуальное окружение
+venv/
+env/
+.env
+.venv/
+
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Временные файлы
+/tmp/
+*.tmp
+*.log
+*.pid
+*.bak
+
+# PDF-отчёты (генерируются ботом)
+*.pdf
+!tech_leader_report.pdf   # если нужно отслеживать конкретный файл
+
+# Токены и конфиденциальные данные
+.env
+.env.local
+*.env
+
+# Результаты тестов
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Директории IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store

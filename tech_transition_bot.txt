@@ -1,0 +1,19 @@
+tech_transition_bot/
+├── .env.example
+├── .gitignore
+├── requirements.txt
+├── Dockerfile
+├── railway.json
+├── main.py
+├── config.py
+├── keyboards.py
+├── states.py
+├── data.py
+├── utils.py
+└── handlers/
+    ├── __init__.py
+    ├── start.py
+    ├── vug.py
+    ├── situations.py
+    ├── result.py
+    └── roadmap.py
